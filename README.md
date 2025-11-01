@@ -20,13 +20,13 @@ Visualize Git illustrates what's going on underneath the hood when you use commo
 Here are some examples of the fun things you can do with it:
 
 ## Rebase
-![rebase](images/viz-rebase.gif)
+![rebase](workspace/images/viz-rebase.gif)
 
 ## Cherry-pick
-![cherry-pick](images/cherry-pick.gif)
+![cherry-pick](workspace/images/cherry-pick.gif)
 
 ## Push/pull
-![push-pull](images/remote.gif)
+![push-pull](workspace/images/remote.gif)
 
 ## Supported operations
 
