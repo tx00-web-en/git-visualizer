@@ -1,14 +1,19 @@
-﻿Visualize Git
-=============
+﻿
+# README
 
 
-> Based on:
-> - [http://git-school.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)!
-> - [https://github.com/onlywei/explain-git-with-d3](https://github.com/onlywei/explain-git-with-d3) 
+## About this fork
+
+This project builds on [Visualizing Git](http://git-school.github.io/visualizing-git/) (repo 1), which itself is based on [explain-git-with-d3](https://github.com/onlywei/explain-git-with-d3) (repo 2). Both projects have been valuable resources for understanding Git internals through visualization.  
+
+The aim of this fork is to extend the original work with newer Git commands and modern tooling, while preserving the spirit of the original visualization.  
+
+Enhancements in this fork include:  
+- Added support for the `git switch` command  
+- Refactored the build system to use [Vite](https://vitejs.dev/) for a faster, modern development workflow  
 
 
-<!-- Git is an amazingly powerful tool — and it can be amazingly confusing. Demystify Git commands with visualizations powered by D3.  -->
-
+## Visualize Git
 
 Visualize Git illustrates what's going on underneath the hood when you use common Git operations. You'll see what exactly is happening to your commit graph. We aim to support all the most basic git operations, including interacting with remotes.
 
