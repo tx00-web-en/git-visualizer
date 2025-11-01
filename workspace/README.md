@@ -2,14 +2,12 @@
 =============
 
 
-Based on:
-- [http://git-school.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)!
-- [@onlywei](https://github.com/onlywei/explain-git-with-d3) 
+> Based on:
+> - [http://git-school.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)!
+> - [https://github.com/onlywei/explain-git-with-d3](https://github.com/onlywei/explain-git-with-d3) 
 
 
-
-
-Git is an amazingly powerful tool — and it can be amazingly confusing. Demystify Git commands with visualizations powered by D3. 
+<!-- Git is an amazingly powerful tool — and it can be amazingly confusing. Demystify Git commands with visualizations powered by D3.  -->
 
 
 Visualize Git illustrates what's going on underneath the hood when you use common Git operations. You'll see what exactly is happening to your commit graph. We aim to support all the most basic git operations, including interacting with remotes.
