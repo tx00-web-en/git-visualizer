@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115441830-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115441830-1');
+</script>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Visualizing Git</title>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery-ui.min.js"></script>
+<script src="js/vendor/d3.js"></script>
+<script src="js/vendor/yargs-parser.js"></script>
+  <script type="module" crossorigin src="/git-visualizer/assets/index-Dl__1uPW.js"></script>
+  <link rel="stylesheet" crossorigin href="/git-visualizer/assets/index-B07pTrry.css">
+</head>
+<body>
+
+<div id="ExplainGitZen-Container" style="display:none">
+    <div class="playground-container">
+      <pre id='last-command' style='display: none;'></pre>
+    </div>
+</div>
+
+<svg version="1.1" baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="0" height="0">
+
+    <marker id="triangle" refX="5" refY="5" markerUnits="strokeWidth" fill="rgba(100,100,100,0.8)"
+            markerWidth="4" markerHeight="3" orient="auto" viewBox="0 0 10 10">
+        <path d="M 0 0 L 10 5 L 0 10 z"/>
+    </marker>
+    <marker id="faded-triangle" refX="5" refY="5" markerUnits="strokeWidth" fill="#DDD"
+            markerWidth="4" markerHeight="3" orient="auto" viewBox="0 0 10 10">
+        <path d="M 0 0 L 10 5 L 0 10 z"/>
+    </marker>
+    <marker id="brown-triangle" refX="5" refY="5" markerUnits="strokeWidth" fill="rgba(100,100,100,0.8)"
+            markerWidth="4" markerHeight="3" orient="auto" viewBox="0 0 10 10">
+        <path d="M 0 0 L 10 5 L 0 10 z"/>
+    </marker>
+</svg>
+
+</body>
+</html>
